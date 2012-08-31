@@ -49,7 +49,7 @@ window.slidesConfig = window.slidesConfig || {
     location: 'México, D.F.',
 
     // Presentation Timer
-    date: new Date('Sep 10 2012 08:00'),
+    date: new Date('Aug 30 2012 21:55'),
     logo: './images/fi_logo_50.jpg',
     minutes: 20,
     warnAt: 5
