@@ -80,7 +80,6 @@ limitations under the License.
       <li>Algunos proyectos desarrollados</li>
       <li>Proyecto de control de asistencia</li>
       <li>Resultados</li>
-      <li>Conclusiones</li>
     </ul>
   </article>
 
@@ -232,7 +231,115 @@ NACHO
         <li>Cantidad de producto que el restaurante tuvo que haber usado, de acuerdo a su n&uacute;mero de transacciones y a la cantidad de producto establecida por la receta, sin incluir la merma.</li>
         <li>El gerente realizaba la b&uacute;squeda manual del uso ideal.</li>
         <li>Se automatiza el proceso.</li>
+        <li>Se tienen archivos de configuraci&oacute;n de productos de acuerdo a la l&iacute;nea de producci&oacute;n.
     </ul>
+  </article>
+
+  <article>
+    <img class='centered' src='images/ideal_use_2_s.png'> 
+    <div class="build">
+       <div class="overlaybox">
+          <p>Reporte de usos ideales diarios</p>
+       </div>
+    </div>
+  </article>
+
+  <article>
+    <h3>Proyecto de control de asistencia</h3>
+    <ul class="build">
+        <li>Uso de huella digital para registrar entrada y salida.</li>
+        <li>Evitar uso de contrase&ntilde;as.</li>
+        <li>Eliminar la suplantaci&oacute;n.</li>
+        <li>Eliminar las modificaciones a las horas por parte del gerente.</li>
+    </ul>
+  </article>
+
+  <article>
+    <img class='centered' src='images/Fingerprint-02_s.jpg'> 
+    <div class="build">
+       <div class="overlaybox">
+          <p>Prototipo 1: Lector Microsoft USB</p>
+          <p>Uso de biblioteca libre <i>libfprint</i> escrita en C.</p>
+          <p>Captura y descarga im&aacute;genes en tiempo real desde el lector.</p>
+          <p>Registro (enrolamiento) y verificaci&oacute;n de huellas.</p>
+          <p>Dificultad de instalaci&oacute;n debido a dependencia con otro software.</p>
+       </div>
+    </div>
+  </article>
+
+  <article>
+    <ul class="build">
+        <li>Interfaz gr&aacute;fica realizada en Java Swing.</li>
+        <li>Uso de Java Native Interface (JNI) para el uso de <i>libfprint</i>.</li>
+        <li>Pantalla de enrolamiento y entrada/salida de asociados.
+    </ul>
+  </article>
+
+  <article>
+    <ul class="build">
+      <table border="0">
+        <tr>
+          <td align="center"> <img src='images/fp_libfprint_enroll_1.png'> </td>
+        </tr>
+        <tr>
+          <td align="center"> <img src='images/fp_libfprint_attendance_1.png'> </td>
+        </tr>
+      </table>
+    </ul>
+  </article>
+
+  <article>
+    <img class='centered' src='images/fingerprint_u300.png'> 
+    <div class="build">
+       <div class="overlaybox">
+          <p>Prototipo 2: Lector ZK Software</p>
+          <p>Dispositivo especializado.</p>
+          <p>Almacena 1600 huellas, 50000 registros, sistema operativo GNU/Linux.</p>
+          <p>Portal web para consulta de registros.</p>
+       </div>
+    </div>
+  </article>
+
+  <article>
+    <ul class="build">
+        <li>Lectura automatizada mediante <i>cURL</i> y <i>Perl</i>.</li>
+        <li>Ingreso de registros a archivos de n&oacute;mina de punto de venta.</li>
+        <li>Almacenamiento de registros en base de datos (<i>PostgreSQL</i>).</li>
+        <li>Reporte para la consulta de horas en restaurante.</li>
+    </ul>
+  </article>
+
+  <article>
+    <ul class="build">
+      <table border="0">
+        <tr>
+          <td align="center"> <img src='images/fingerprint_web_new_2_s.png'> </td>
+        </tr>
+        <tr>
+          <td align="center"> <img src='images/fingerprint_ereports_s.png'> </td>
+        </tr>
+      </table>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Resultados</h3>
+    <ul class="build">
+        <li>Ya no se compra papel para tickets de auditor&iacute;a.</li>
+        <li>Nivel adecuado de inventario gracias al reporte de usos ideales.</li>
+        <li>Incorporaci&oacute;n de reporte de usos ideales a Pizza Hut.</li>
+        <li>Control de retardos, faltas e incapacidades.</li>
+        <li>Excepciones de pago.</li>
+        <li>Visualizaci&oacute;n de la asistencia en tiempo real.</li>
+        <li>Al d&iacute;a de hoy se encuentra instalado en 6 restaurantes KFC y 20 Pizza Hut</li>
+    </ul>
+  </article>
+
+  <article class="closing-slide">
+    <div>
+       <p id="end-thanks">Gracias por su atenci&oacute;n.</p>
+       <h3 id="end-questions">&iquest;Preguntas?</h3>
+    </div>
   </article>
 
 </section>

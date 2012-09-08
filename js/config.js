@@ -49,10 +49,10 @@ window.slidesConfig = window.slidesConfig || {
     location: 'México, D.F.',
 
     // Presentation Timer
-    date: new Date('Aug 30 2012 21:55'),
+    date: new Date('Sep 8 2012 14:30'),
     logo: './images/fi_logo_50.jpg',
-    minutes: 20,
-    warnAt: 5
+    minutes: 25,
+    warnAt: 20
   }
 };
 
